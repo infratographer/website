@@ -102,9 +102,9 @@ nav:
     - Code of Conduct: community/code-of-conduct.md
     - Contributing: community/contributing.md
     - Support: community/support.md
+    - Project Guidelines: community/project-guidelines.md
   - Documentation:
     - Architecture: docs/architecture.md
     - Development: docs/development.md
     - Identity and Permissions: docs/identity-and-permissions.md
     - Network Automation and Services: docs/network-automation-and-services.md
-    - Project Guidelines: docs/project-guidelines.md
