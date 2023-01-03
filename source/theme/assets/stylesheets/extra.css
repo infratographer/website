@@ -1,0 +1,137 @@
+/* MKA these are all "infratographer specific" overrides from the upstream theme
+   If you need to make customizations, this is where you would do it, NOT in the pymdownx-extras dir */
+
+/* These md's set everything globally; use with caution */
+
+/*:root > * {
+  --md-primary-fg-color: #e4e6ebd4;
+  --md-primary-bg-color: #20242E;
+}*/
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 220;
+  }
+
+  :root > * {
+    --md-default-fg-color--lightest: #61758d9c;
+  }
+
+  :root {
+    --md-tooltip-width: 300px;
+  }
+
+  .md-typeset .grid.cards>:-webkit-any(ul,ol)>li, .md-typeset .grid>.card {
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 30%), 0 0 0.05rem rgb(0 0 0 / 20%);
+    margin: 4px;
+  }
+
+  .md-grid {
+    max-width: initial;
+  }
+
+  .md-typeset .middle {
+  /*  padding-right: 15px;*/
+    padding-left: 15px;
+  }
+
+  .gridheader {
+    padding-left: 20px;
+  /*  padding-right: 10px; */
+  }
+
+  .moreline {
+    padding-left: 22px;
+  }
+
+  thead {
+    background-color:rgba(68, 137, 255, 0.197);;
+  }
+
+  .md-typeset table:not([class]) th {
+    font-weight: 700;
+    min-width: 5rem;
+    padding: 0.9375em 1.25em;
+    vertical-align: top;
+    background-color: rgba(68,138,255,.1);;
+  }
+
+  /* .md-typeset a:hover code {
+  /*   text-decoration: underline;
+  /* }
+  /*
+  /* .md-typeset table:not([class]) {
+  /*   display: inline-block;
+  /*   max-width: 100%;
+  /*   overflow: auto;
+  /*   background-color: var(--md-default-fg-color--lightest);
+  /*   border-radius: .1rem;
+  /*   box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,.05), 0 0 0.05rem rgba(0,0,0,.1);
+  /*   touch-action: auto;
+  /* }
+  /*
+  /* .md-typeset table:not([class]) td {
+  /*   background-color: #4b556736;
+  /*   padding: .9375em 1.25em;
+  /*   vertical-align: top;
+  /*   border-top: .05rem solid var(--md-default-fg-color--lightest);
+  /* }
+
+  /* Cluster inventory stuffs */
+
+  .inventory-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .inventory-box {
+    margin-right:30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .copy-box {
+    margin-right:30px;
+    flex-wrap: wrap;
+  }
+
+  #rack {
+    border: 1px solid;
+    grid-row: 1 / span 4;
+    align-content: space-around;
+    justify-content: space-between;
+  }
+
+  #position {
+    min-width: 5px;
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 35px;
+  }
+
+  #empty-position {
+    min-width: 5px;
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 20px;
+  }
+
+  #device {
+    font-size: 14px;
+    padding: 2px;
+    height: 35px;
+    min-width: 175px;
+    vertical-align: middle;
+    background-color: rgba(68,138,255,.1);;
+  }
+
+  #empty-device {
+    font-size: 14px;
+    padding: 2px;
+    height: 20px;
+    min-width: 175px;
+    vertical-align: middle;
+  }
