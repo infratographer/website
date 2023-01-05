@@ -1,6 +1,6 @@
 # Local setup guide
 
-This guide will walk you through setting up your local development environment. This guide assumes that you have a basic understanding of how to use the command line and have a basic understanding of git.
+This guide will walk you through setting up your local development environment. This guide assumes that you have a basic understanding of how to use the command line and a basic understanding of git.
 
 ## Prerequisites
 
@@ -11,11 +11,11 @@ This guide will walk you through setting up your local development environment. 
 
 ## Setup
 
-There are two ways to setup your local development environment. Both supported methods are based on [dev container](https://containers.dev/).
+There are two ways to set up your local development environment. Both supported methods are based on [dev container](https://containers.dev/).
 
 ### Emacs + SSH
 
-Using emacs + SSH is a commandline driven method for setting up your local development environment. This method is great for those who are comfortable with the command line and want to use emacs as their editor.
+Using emacs + SSH is a command-line-driven method for setting up your local development environment. This method is great for those who are comfortable with the command line and want to use emacs as their editor.
 
 #### dev container + docker settings
 
@@ -46,7 +46,7 @@ Host YOUR_HOST_HERE
 1. Install [VS Code](https://code.visualstudio.com/)
 1. Install the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
 1. Open the project in VS Code
-1. Click the green button in the lower left corner of the window that says "Reopen in Container"
+1. Click the green button in the lower-left corner of the window that says "Reopen in Container"
 1. Wait for the container to build and start
 
 
