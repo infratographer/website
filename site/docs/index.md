@@ -17,7 +17,10 @@ Infratographer is a collection of services that manage all aspects of infrastruc
 
 The best way to get started is to check out our [Development] guide.
 
-[Development]: docs/development.md
+For help getting a development environment setup, check out our [Local setup] guide.
+
+[Development]: docs/development/guidlines.md.md
+[Local setup]: docs/development/local-setup/index.md
 
 ## How do I contribute?
 

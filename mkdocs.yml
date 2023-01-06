@@ -2,7 +2,7 @@
 site_name: Infratographer Community
 site_author: Infratographer Maintainers
 dev_addr: 0.0.0.0:7708
-docs_dir: docs
+docs_dir: site/docs
 markdown_extensions:
   - abbr
   - admonition
@@ -74,11 +74,11 @@ extra:
 theme:
   include_search_page: false
   search_index_only: true
-  custom_dir: theme
+  custom_dir: site/theme
   name: material
   icon:
     repo: reverse
-    logo: material/kubernetes
+    logo: material/sail-boat
   features:
     - navigation.instant
     - navigation.top
@@ -105,6 +105,12 @@ nav:
     - Project Guidelines: community/project-guidelines.md
   - Documentation:
     - Architecture: docs/architecture.md
-    - Development: docs/development.md
+    - Development:
+      - Guide: docs/development/guide.md
+      - Local Setup:
+        - Index: docs/development/local-setup/index.md
+        - VS Code: docs/development/local-setup/vscode.md
+        - SSH: docs/development/local-setup/ssh.md
     - Identity and Permissions: docs/identity-and-permissions.md
-    - Network Automation and Services: docs/network-automation-and-services.md
+    - Network Automation and Services: docs/network-automation-services.md
+
