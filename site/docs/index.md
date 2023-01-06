@@ -20,7 +20,7 @@ The best way to get started is to check out our [Development] guide.
 For help getting a development environment setup, check out our [Local setup] guide.
 
 [Development]: docs/development/guidlines.md.md
-[Local setup]: docs/development/local-setup.md
+[Local setup]: docs/development/local-setup/index.md
 
 ## How do I contribute?
 

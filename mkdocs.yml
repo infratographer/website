@@ -107,7 +107,10 @@ nav:
     - Architecture: docs/architecture.md
     - Development:
       - Guide: docs/development/guide.md
-      - Local Setup: docs/development/local-setup.md
+      - Local Setup:
+        - Index: docs/development/local-setup/index.md
+        - VS Code: docs/development/local-setup/vscode.md
+        - SSH: docs/development/local-setup/ssh.md
     - Identity and Permissions: docs/identity-and-permissions.md
     - Network Automation and Services: docs/network-automation-services.md
 
