@@ -2,7 +2,7 @@
 site_name: Infratographer Community
 site_author: Infratographer Maintainers
 dev_addr: 0.0.0.0:7708
-docs_dir: site/docs
+docs_dir: source/docs
 markdown_extensions:
   - abbr
   - admonition
@@ -74,7 +74,7 @@ extra:
 theme:
   include_search_page: false
   search_index_only: true
-  custom_dir: site/theme
+  custom_dir: source/theme
   name: material
   icon:
     repo: reverse
