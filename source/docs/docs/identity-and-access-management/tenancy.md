@@ -6,17 +6,29 @@ Tenancy is the concept of providing isolated access to resources. In the context
 
 ## Principles of Tenancy
 
-### Tenants are Isolated
+### Tenant Trees are Isolated
 
-Tenants provide isolated access to data. Access to data within a tenant needs to be explicitly granted.
+Tenants provide isolated access to data. Access to data within a tenant tree needs to be explicitly granted.
 
 #### Rationale
 
-Tenant isolation allows for granular access control.
+Tenant isolation limits access privileges to data and control over resources managed by the ecosystem.
 
 #### Implications
 
-Access to a tenant does not imply access to child or parent tenants.
+Access to a parent tenant is not implied by granting access to a child tenant and access to one tenant does not imply access to other unrelated tenant trees. [Access granted to a parent tenant *does* imply granting access to child tenants](#tenant-permissions-are-inherited)
+
+### Tenant permissions are inherited
+
+Access granted on a tenant will be inherited by all subtenants.
+
+#### Rationale
+
+Inheriting access rights from the parent is more intuitive and fits better into existing authorization paradigms.
+
+#### Implication
+
+When access is granted to a tenant, that access will be granted to all subtenants of the tenant at the same level. Access cannot be limited to only one level unless the tenant has no children. In some cases, a flat tenant structure may be better serve isolation requirements.
 
 ### Tenants are Hierarchical
 
@@ -44,7 +56,7 @@ The services that form the infratographer ecosystem are aware of the tenants and
 
 ### Resources are owned by Tenants
 
-A resources is owned by a single tenant, not multiple tenants.
+All resources are owned by a single tenant, not multiple tenants.
 
 #### Rationale
 
