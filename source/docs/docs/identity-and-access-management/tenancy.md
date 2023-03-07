@@ -4,7 +4,7 @@
 
 Tenancy is the concept of providing isolated access to resources. In the context of the infratographer ecosystem, we are talking about the isolation of data and the ability to provide a single application to multiple tenants. The scope of this document is to provide a shared understanding and a working model for developing multi-tenant applications within the infratographer ecosystem. It is outside the scope to discuss multi-tenancy in other systems beyond infratographer except where drawing comparison helps to clarify our intent.
 
-## Principals of Tenancy
+## Principles of Tenancy
 
 ### Tenants are Isolated
 
