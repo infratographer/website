@@ -111,6 +111,7 @@ nav:
         - Index: docs/development/local-setup/index.md
         - VS Code: docs/development/local-setup/vs-code.md
         - SSH: docs/development/local-setup/ssh.md
-    - Identity and Permissions: docs/identity-and-permissions.md
+    - Identity and Access Management:
+      - Identity: docs/identity-and-access-management/identity.md
     - Network Automation and Services: docs/network-automation-services.md
 
