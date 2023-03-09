@@ -32,7 +32,7 @@ JWTs issued to services must conform to existing specifications for Infratograph
 
 ### Identities are bound to issuers
 
-A subject's identity provider is considered to be part of their identity. For example, if a user has the email address `foo@example.com` and is registered with two OIDC providers `https://auth.example.com` and `https://internal.example.com`, they should present with two separate subject URNs depending on the method of authentication used.
+A subject's identity provider is considered to be part of their identity. For example, if a user has the email address `foo@example.com` and is registered with two OIDC providers `https://auth.example.com` and `https://internal.example.com`, they should present with two separate identities with unique subject URNs depending on the method of authentication used.
 
 #### Rationale
 
@@ -48,7 +48,7 @@ Within a given Infratographer deployment, all services must trust the same issue
 
 #### Rationale
 
-Configuring services to accept access tokens from multiple issuers increases the complexity of a given deployment without a marked improvement in security or reliability.
+Trusting a single issuer ensures that subjects have a single, stable identifier when accessing services. Additionally, configuring services to accept access tokens from multiple issuers increases the complexity of a given deployment without a marked improvement in security or reliability.
 
 #### Implications
 
