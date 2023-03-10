@@ -113,5 +113,5 @@ nav:
         - SSH: docs/development/local-setup/ssh.md
     - Identity and Access Management:
       - Identity: docs/identity-and-access-management/identity.md
+      - Tenancy: docs/identity-and-access-management/tenancy.md
     - Network Automation and Services: docs/network-automation-services.md
-
