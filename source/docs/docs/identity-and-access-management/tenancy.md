@@ -36,7 +36,7 @@ Tenants form a tree structure, and are not limited to a single level.
 
 #### Rationale
 
-Experience with multiple large projects (Kubernetes, Openstack, etc) has shown that many ecosystems start with single level tenancy and then migrate to hierarchical tenancy in the future. This migration is often fraught with peril, bugs and dragons.
+Experience with multiple large projects (Openstack[1], Kubernetes[2], etc) has shown that many ecosystems start with single level tenancy and then migrate to hierarchical tenancy in the future. This migration is often fraught with peril, bugs and dragons. Other systems like GCP provide hierarchical multi-tenancy using tree structures. In GCP the tree structure is very clear and is represented by the organization, folders, and projects [3].
 
 #### Implications
 
@@ -64,4 +64,12 @@ Granular access control will provide for a more secure environment. Identities c
 
 #### Implications
 
-Services in the Infratographer ecosystem must track a single tenant association for each resource they manage.
+Services in the Infratographer ecosystem must track a single tenant association for each resource they manage. Tenants and subtenants have no differences other than subtenants have a parent tenant. Drawing a distinction between these entities leads to complications when needing to apply "global" (or at least for a whole tree) authorization constructs and quota management
+
+## References
+
+Much of the inspiration for this doc came the documentation written in [this repo](https://github.com/infratographer/fertilesoil/tree/main/docs).
+
+[1] https://youtu.be/KvKiAzKSVYs
+[2] https://youtu.be/j5x6NumP21c
+[3] https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy
