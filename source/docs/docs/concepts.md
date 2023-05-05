@@ -2,7 +2,7 @@
 
 ## Resource Providers
 
-Resource providers in the Infratographer ecosystem are a mechanism for enabling/disabling resource management on a particular [tenant]: identity-and-access-management/tenancy.md and in a particular location. Enabling a resource provider, grants that resource provider, generally through a service account, access to act on behalf of the tenant.
+Resource providers in the Infratographer ecosystem are a mechanism for enabling/disabling resource management on a particular [tenant](identity-and-access-management/tenancy.md) and in a particular location. Enabling a resource provider grants that resource provider, generally through a service account, access to act on behalf of the tenant.
 
 ### Example Resource Provider
 
