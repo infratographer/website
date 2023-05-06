@@ -26,6 +26,9 @@ markdown_extensions:
       repo_url_shorthand: true
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.superfences:
       preserve_tabs: true
       custom_fences:
@@ -104,7 +107,10 @@ nav:
     - Support: community/support.md
     - Project Guidelines: community/project-guidelines.md
   - Documentation:
-    - Architecture: docs/architecture.md
+    - Architecture:
+      - Overview: docs/architecture/architecture.md
+      - Foundational Resources: docs/architecture/foundational-resources.md
+      - Roadmap: docs/architecture/roadmap.md
     - Development:
       - Guide: docs/development/guide.md
       - Local Setup:
@@ -114,4 +120,3 @@ nav:
     - Identity and Access Management:
       - Identity: docs/identity-and-access-management/identity.md
       - Tenancy: docs/identity-and-access-management/tenancy.md
-    - Network Automation and Services: docs/network-automation-services.md
