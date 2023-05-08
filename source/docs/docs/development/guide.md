@@ -32,7 +32,6 @@ The development workflow is as follows:
 
 ## CI/CD
 
-Infratographer projects will use Buildkite for CI/CD. The compute resources for this is currently being donated by Equinix Metal.
-Buildkite can run on a variety of self-hosted compute nodes and is what the contributors are most familiar with managing.
+Infratographer projects will use GitHub Actions for CI/CD. This allows contributors to run tests on their forks without requiring maintainer involvement. It also enables us to automate builds, tests, and releases based on various triggers, such as pull requests, tags, or commits to specific branches.
 
-There are some known limitations around Buildkite and its integration to GitHub. Therefore, uses of GitHub Actions should be limited to those pain points. This may include tag-based releases, or other GitHub-specific features.
+We aim to have a fast and reliable CI/CD pipeline that helps us catch issues early and enables us to release changes with confidence. We will continuously improve and iterate on our CI/CD setup as the project evolves and new requirements emerge.

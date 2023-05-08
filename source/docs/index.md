@@ -2,16 +2,22 @@
 
 ## What is Infratographer?
 
-Infratographer is a collection of services that manage all aspects of infrastructure automation. This includes:
+Infratographer is a highly opinionated set of services designed to track information about infrastructure. This includes:
 
-* [Identity and Permissions] (wip)
-* [Network Automation and Services] (wip)
-* [Asset Management] (wip)
+* [Identity and Permissions]
+* Asset Management - coming soon
+* IP Address Management - coming soon
 * More to come!
 
-[Identity and Permissions]: docs/identity.md
-[Network Automation and Services]: docs/network-automation-services.md
-[Asset Management]: docs/asset.md
+To learn more about what Infratographer is and where we are going check out the [Architecture] and [Roadmap].
+
+[Identity and Permissions]: docs/identity-and-access-management/identity.md
+[Architecture]: docs/architecture/architecture.md
+[Roadmap]: docs/architecture/roadmap.md
+
+## Why the name Infratographer?
+
+The name Infratographer comes from the combination of "infrastructure" and "cartographer", as the system's mission is to be a source of truth and orchestration layer for all infrastructure. Infratographer provides a GraphQL API to access your infrastructure, allowing you to request specific information and navigate your infrastructure map. Think of it as a set of directions for your infrastructure, helping you to understand and manage the various interconnected components.
 
 ## How do I get started?
 
