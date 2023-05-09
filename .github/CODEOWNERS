@@ -1,4 +1,5 @@
 # Community information and standards need approval from the community committee
 /source/docs/community/ @infratographer/the_committee
+/.github/CODEOWNERS @infratographer/the_committee
 # The docs maintainers are responsible for the rest
-* @infratographer/docs_maintainers
+* @infratographer/sig-community
