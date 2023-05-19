@@ -25,7 +25,7 @@ The best way to get started is to check out our [Development] guide.
 
 For help getting a development environment setup, check out our [Local setup] guide.
 
-[Development]: docs/development/guidlines.md.md
+[Development]: docs/development/guide.md
 [Local setup]: docs/development/local-setup/index.md
 
 ## How do I contribute?
