@@ -40,7 +40,7 @@ It would also be a good idea to be familiar with our [Project Guidelines] before
 
 ## License
 
-Infratographer is licensed under the [Elastic License, Version 2](https://www.elastic.co/licensing/elastic-license).
+Infratographer is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Contact
 
