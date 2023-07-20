@@ -35,7 +35,7 @@ mkdocs-redirects==1.2.0
 mkdocs-tooltips==0.1.0
 natsort==8.2.0
 packaging==22.0
-Pygments==2.14.0
+Pygments==2.15.0
 pymdown-extensions==9.9
 python-dateutil==2.8.2
 pytz==2022.7
