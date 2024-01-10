@@ -9,7 +9,7 @@ csscompressor==0.9.5
 EditorConfig==0.12.3
 ghp-import==2.1.0
 gitdb==4.0.10
-GitPython==3.1.30
+GitPython==3.1.41
 htmlmin==0.1.12
 idna==3.4
 importlib-metadata==6.0.0
