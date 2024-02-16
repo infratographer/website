@@ -14,7 +14,7 @@ htmlmin==0.1.12
 idna==3.4
 importlib-metadata==6.0.0
 Jinja2==3.1.2
-jsbeautifier==1.14.7
+jsbeautifier==1.15.1
 jsmin==3.0.1
 Markdown==3.3.7
 MarkupSafe==2.1.1
