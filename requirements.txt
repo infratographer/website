@@ -49,4 +49,4 @@ soupsieve==2.3.2.post1
 urllib3==1.26.13
 watchdog==2.2.1
 wcmatch==8.4.1
-zipp==3.11.0
+zipp==3.19.1
